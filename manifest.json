@@ -1,0 +1,40 @@
+{
+   "background": {
+      "scripts": [
+         "background.js"
+      ]
+   },
+   "browser_action": {
+      "default_icon": "switch.png",
+      "default_popup": "popup.html",
+      "default_title": ""
+   },
+   "content_scripts": [
+      {
+         "js": [
+            "contentscript.js"
+         ],
+         "matches": [
+            "*://*/*"
+         ]
+      }
+   ],
+   "description": "快速切换同一网站的多个已登录账号，支持豆瓣、知乎、微博、Twitter、Facebook 等等",
+   "icons": {
+      "128": "switch.png",
+      "16": "switch.png",
+      "48": "switch.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlCndpdeddlo9Qnjga1jDh7GN89XXn7VY1QxZhrdLDzWVoH07x6/KAWdXb1xFhSTegGqfNC9pgFEAQ6b0w50zI2V4jgVofxXKVqFRPVfc9AlCrKLw3mMusJgOaNJSa1miZY9khupxrfTeCDmu/abGhvQbLRtstUStXnVi6UE5a+zoiO0x03WDvAmdRB9dDFtGi2fkcVOReGIcpsumdplMSc7LDI1I7RZ0Hi3m6mxzpVi4FUBxvMOwSi5SR1X2V+RcLE1oUI23B2eghUJo3ayW5Xt+OaZhmYga+KxRAVeE7/YTeKXMgi+ZTd9SsSo0kv1wWQFOFyDgZoLEGlZZu/yzMQIDAQAB",
+   "manifest_version": 2,
+   "name": "站点多账户管理",
+   "permissions": [
+      "cookies",
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "storage"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
