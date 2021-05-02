@@ -6,13 +6,13 @@
 
 本插件的作用就是，让你登入一次，即可多个账户之间快速的切换，非常高效、方便。
 
-
-
 ## 原理
 
 通过插件切换不同账户的时候，自动设置各自的Cookies。
 
+## 安装
 
+https://jingyan.baidu.com/article/3065b3b6cc6cf6ffcef8a444.html
 
 ## 示例
 
