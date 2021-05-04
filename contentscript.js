@@ -33,8 +33,10 @@
 
 		'zhihu.com': function () {
 			const span = document.querySelector('.ProfileHeader-title .ProfileHeader-name');
-			if (span && span.innerHTML)
+			if (span && span.innerHTML) {
 				gotUsername(span.innerHTML);
+			}
+
 		},
 
 		'weibo.com': function () {
